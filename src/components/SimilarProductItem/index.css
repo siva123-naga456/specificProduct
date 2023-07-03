@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 220px;
+  width: 180px;
+}
+.similar-images {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.similar-title {
+  font-size: 12px;
+  font-family: Roboto;
+  color: #171f46;
+  font-weight: 500;
+}
+.similar-brand {
+  font-size: 12px;
+  font-family: Roboto;
+  color: #cbced2;
+  font-weight: 400;
+}
+.list-sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.stars-img {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}

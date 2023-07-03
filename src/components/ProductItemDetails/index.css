@@ -1,0 +1,139 @@
+/* Write your CSS here */
+
+.failure-Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 80px;
+  width: 120px;
+  margin: 10px;
+}
+.failure-heading {
+  font-size: 16px;
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.Shopping-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 190px;
+  height: 30px;
+}
+
+.main-container {
+  height: 100vh;
+  flex-direction: column;
+}
+.main-sub-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 80px;
+  height: 120px;
+}
+.main-sub1-container {
+  display: flex;
+  flex-direction: column;
+}
+.item-heading {
+  color: #12022f;
+  font-size: 24px;
+  font-weight: 600px;
+  font-family: Roboto;
+}
+.item-price {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 600px;
+  font-family: Roboto;
+}
+.review-rating-container {
+  display: flex;
+  align-items: center;
+}
+.review-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.star-img {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+.item-review {
+  color: #616e7c;
+  font-size: 10px;
+  font-weight: 500px;
+  font-family: Roboto;
+}
+.item-description {
+  color: #616e7c;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: Roboto;
+}
+.available-text {
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: Roboto;
+}
+.cart-btn {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  border-radius: 8px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+.minus-btn {
+  background-color: transparent;
+  border: 1px solid #cbced2;
+  width: 20px;
+  height: 20px;
+}
+.count {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: Roboto;
+}
+.product-heading {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: Roboto;
+}
+.order-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
